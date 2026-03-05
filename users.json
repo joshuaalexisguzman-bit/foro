@@ -1,0 +1,23 @@
+{
+  "pollito@ipn.mx": {
+    "password": "06697ab514158ffd2db2982834a295d099ba6ad8fd3a73ba0b419eda14b2f1c6",
+    "name": "Pollo",
+    "username": "Torta de huevo",
+    "role": "profesor",
+    "created": 1772669882633
+  },
+  "tmata@ipn.mx": {
+    "password": "e8effd02266279521440f4cf4fcc3d150d7785b859c56f99dd0e38362aa654ea",
+    "name": "Tania Carolina",
+    "username": "Tanc",
+    "role": "profesor",
+    "created": 1772670292610
+  },
+  "romanrubio@alumno.ipn.mx": {
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "name": "Roman",
+    "username": "Roman",
+    "role": "alumno",
+    "created": 1772670453436
+  }
+}

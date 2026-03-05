@@ -1,0 +1,64 @@
+/* Styles for the editable platform view */
+.app-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  background: #cc0433;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 40px; /* mayores separaciones entre secciones */
+}
+
+nav .nav-link {
+  background:none;
+  border:none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0;
+}
+
+nav .nav-link:hover {
+  color: black;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 40px auto;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.tarjeta-perfil {
+  background: white;
+  width: 320px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-perfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #cc0433;
+}
+
+/* reuse .boton from App.css already defined */

@@ -1,0 +1,62 @@
+.login-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  min-height:100vh;
+  padding-top:0; /* no padding so header is at top */
+  background:rgba(255,255,255,0.9);
+}
+
+.login-container nav{
+  width:100%;
+  margin-bottom:20px;
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.login-container h2{
+  color:#cc0433;
+  margin:0 0 20px 0;
+  text-align:center;
+}
+.login-form{
+  max-width:420px;
+  width:90%;
+  display:flex;
+  flex-direction:column;
+  padding:20px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+  margin:0 auto; /* center horizontally */
+}
+.login-form h2{
+  display:none; /* hidden because container title is used */
+}
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form input:not([type]){
+  padding:8px;
+  margin:6px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+.login-form button{
+  padding:10px 20px;
+  margin-top:8px;
+  background:#9e0f0f;
+  color:white;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.3s;
+}
+.login-form button:hover{
+  background:black;
+}
+.remember{ margin-top:8px; }
+.msg{ color: red; }
